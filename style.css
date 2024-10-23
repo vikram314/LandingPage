@@ -1,0 +1,259 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+.top{
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(http://wallpapercave.com/wp/nlHqrZC.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+.top .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    padding: 0 10vh;
+    color:beige;
+    bottom:1%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://cdn.wallpapersafari.com/93/68/e3py1P.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 80px;
+}
+.rtex{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtex p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(https://wallpaperaccess.com/full/3095932.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+}
+.b1{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(https://wallpapercave.com/wp/wp9764081.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color:azure;
+    text-align: center;
+    padding:15px;
+}
+.b2{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.b2 .up{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(http://hintergrundbild.org/wallpaper/full/6/3/0/14405-beste-city-wallpapers-2560x1440-fuer-ipad-2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.h2 up p{
+    color:aqua;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://wallpaperaccess.com/full/3095932.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.b2 .down .overlay{
+    position:relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(128, 128, 128, 0.497);
+}
+.b2 p{
+    color:whitesmoke;
+    text-align: center;
+    padding:15px;
+}
+
+.b3{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(http://wallpapercave.com/wp/odd7V36.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 0%;
+    width: 100%;
+    padding: 0;
+}
+.b3 .overlay p{
+    padding:1.2vh;
+}
+.b3 p{
+    color:azure;
+    text-align: center;
+    padding:15px;
+}
+@media (min-width: 700px) {
+    .rtext {
+        flex-direction: row;
+    }
+    .text h1 {
+        font-size: 3vw;  
+    }
+    .text .image {
+        height: 150px;
+        width: 100px;
+    }
+    .bottom {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 500px) {
+    .text {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text .image {
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p {
+        margin-top: 10px;
+    }
+    .bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1, .b2, .b3 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.top-section, .bottom-section {
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+.section, .content-section {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-bottom: 0;
+}
+.top-section {
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(https://wallpapercave.com/wp/wp3950236.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.bottom-section {
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(https://wallpapers.com/images/file/image-background-i6gx0lrv6r0sep9t.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
